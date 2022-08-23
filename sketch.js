@@ -42,13 +42,13 @@ function draw() {
 
   //exibir a imagem do jogador usando a função image()
   Engine.update(engine);
-  image(baseimage,playerBase.positon.x,playerBase.position.y,150,180);
+  image(baseimage,playerBase.position.x,playerBase.position.y,150,180);
   image(playerimage,player.position.x,player.position.y,50,180);
 
   //exibir a imagem da base do jogador usando a função image()
 
 
-  Engine.update(engine);
+ 
 
   // Title
   fill("#FFFF");
